@@ -1,0 +1,205 @@
+[
+{
+  "code": "AK",
+  "state": "Alaska"
+},
+{
+  "code": "AL",
+  "state": "Alabama"
+},
+{
+  "code": "AR",
+  "state": "Arkansas"
+},
+{
+  "code": "AZ",
+  "state": "Arizona"
+},
+{
+  "code": "CA",
+  "state": "California"
+},
+{
+  "code": "CO",
+  "state": "Colorado"
+},
+{
+  "code": "CT",
+  "state": "Connecticut"
+},
+{
+  "code": "DE",
+  "state": "Delaware"
+},
+{
+  "code": "FL",
+  "state": "Florida"
+},
+{
+  "code": "GA",
+  "state": "Georgia"
+},
+{
+  "code": "HI",
+  "state": "Hawaii"
+},
+{
+  "code": "IA",
+  "state": "Iowa"
+},
+{
+  "code": "ID",
+  "state": "Idaho"
+},
+{
+  "code": "IL",
+  "state": "Illinois"
+},
+{
+  "code": "IN",
+  "state": "Indiana"
+},
+{
+  "code": "KS",
+  "state": "Kansas"
+},
+{
+  "code": "KY",
+  "state": "Kentucky"
+},
+{
+  "code": "LA",
+  "state": "Louisiana"
+},
+{
+  "code": "MA",
+  "state": "Massachusetts"
+},
+{
+  "code": "MD",
+  "state": "Maryland"
+},
+{
+  "code": "ME",
+  "state": "Maine"
+},
+{
+  "code": "MI",
+  "state": "Michigan"
+},
+{
+  "code": "MN",
+  "state": "Minnesota"
+},
+{
+  "code": "MO",
+  "state": "Missouri"
+},
+{
+  "code": "MS",
+  "state": "Mississippi"
+},
+{
+  "code": "MT",
+  "state": "Montana"
+},
+{
+  "code": "NC",
+  "state": "North Carolina"
+},
+{
+  "code": "ND",
+  "state": "North Dakota"
+},
+{
+  "code": "NE",
+  "state": "Nebraska"
+},
+{
+  "code": "NH",
+  "state": "New Hampshire"
+},
+{
+  "code": "NJ",
+  "state": "New Jersey"
+},
+{
+  "code": "NM",
+  "state": "New Mexico"
+},
+{
+  "code": "NV",
+  "state": "Nevada"
+},
+{
+  "code": "NY",
+  "state": "New York"
+},
+{
+  "code": "OH",
+  "state": "Ohio"
+},
+{
+  "code": "OK",
+  "state": "Oklahoma"
+},
+{
+  "code": "OR",
+  "state": "Oregon"
+},
+{
+  "code": "PA",
+  "state": "Pennsylvania"
+},
+{
+  "code": "PR",
+  "state": "Puerto Rico"
+},
+{
+  "code": "RI",
+  "state": "Rhode Island"
+},
+{
+  "code": "SC",
+  "state": "South Carolina"
+},
+{
+  "code": "SD",
+  "state": "South Dakota"
+},
+{
+  "code": "TN",
+  "state": "Tennessee"
+},
+{
+  "code": "TX",
+  "state": "Texas"
+},
+{
+  "code": "UT",
+  "state": "Utah"
+},
+{
+  "code": "VA",
+  "state": "Virginia"
+},
+{
+  "code": "VT",
+  "state": "Vermont"
+},
+{
+  "code": "WA",
+  "state": "Washington"
+},
+{
+  "code": "WI",
+  "state": "Wisconsin"
+},
+{
+  "code": "WV",
+  "state": "West Virginia"
+},
+{
+  "code": "WY",
+  "state": "Wyoming"
+}]

@@ -1,0 +1,1322 @@
+[
+  {
+    "Code": 106,
+    "Description": "Belize",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 110,
+    "Description": "Costa Rica",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 118,
+    "Description": "El Salvador",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 127,
+    "Description": "Guatemala",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 131,
+    "Description": "Honduras",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 148,
+    "Description": "Mexico",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 153,
+    "Description": "Nicaragua",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 160,
+    "Description": "Panama Canal Zone",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 162,
+    "Description": "Panama",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 174,
+    "Description": "San Andres Island",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 202,
+    "Description": "Anguilla",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 204,
+    "Description": "Bahamas",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 205,
+    "Description": "Barbados",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 206,
+    "Description": "Antigua and Barbuda",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 207,
+    "Description": "Bermuda",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 209,
+    "Description": "Carriacou",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 219,
+    "Description": "Cuba",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 221,
+    "Description": "Dominica",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 224,
+    "Description": "Dominican Republic",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 233,
+    "Description": "Cayman Islands",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 234,
+    "Description": "Grand Turk",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 235,
+    "Description": "Guadeloupe",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 236,
+    "Description": "Saint Martin",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 237,
+    "Description": "Saint Barthelemy",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 238,
+    "Description": "Haiti",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 243,
+    "Description": "Jamaica",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 252,
+    "Description": "Martinique",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 256,
+    "Description": "Montserrat",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 257,
+    "Description": "Mustique",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 259,
+    "Description": "Netherlands Antilles",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 260,
+    "Description": "Bonaire, Sint Eustatius, and Saba",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 261,
+    "Description": "St. Kitts and Nevis - UK",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 262,
+    "Description": "Curacao",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 264,
+    "Description": "Sint Maarten",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 267,
+    "Description": "Providenciales",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 268,
+    "Description": "Puerto Rico",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 273,
+    "Description": "Grenada and South Grenadines",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 274,
+    "Description": "Antigua and Barbuda - UK",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 275,
+    "Description": "St. Kitts and Nevis",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 276,
+    "Description": "St. Lucia",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 277,
+    "Description": "Aruba",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 279,
+    "Description": "St. Vincent and North Grenadines",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 280,
+    "Description": "Trinidad and Tobago",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 281,
+    "Description": "Turks and Caicos Islands",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 282,
+    "Description": "British Virgin Islands",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 283,
+    "Description": "U.S. Virgin Islands",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 303,
+    "Description": "Argentina",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 312,
+    "Description": "Bolivia",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 316,
+    "Description": "Brazil",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 324,
+    "Description": "Chile",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 327,
+    "Description": "Colombia",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 337,
+    "Description": "Ecuador",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 340,
+    "Description": "Falkland Islands",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 344,
+    "Description": "French Guiana",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 350,
+    "Description": "Guyana",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 365,
+    "Description": "Paraguay",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 368,
+    "Description": "Peru",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 379,
+    "Description": "Suriname",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 385,
+    "Description": "Uruguay",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 388,
+    "Description": "Venezuela",
+    "Note": "Latin America & Caribbean"
+  },
+  {
+    "Code": 401,
+    "Description": "Albania",
+    "Note": "Europe"
+  },
+  {
+    "Code": 402,
+    "Description": "Andorra",
+    "Note": "Europe"
+  },
+  {
+    "Code": 403,
+    "Description": "Austria",
+    "Note": "Europe"
+  },
+  {
+    "Code": 405,
+    "Description": "Armenia",
+    "Note": "Europe"
+  },
+  {
+    "Code": 407,
+    "Description": "Azerbaijan",
+    "Note": "Europe"
+  },
+  {
+    "Code": 409,
+    "Description": "Belgium",
+    "Note": "Europe"
+  },
+  {
+    "Code": 410,
+    "Description": "Bosnia and Herzegovina",
+    "Note": "Europe"
+  },
+  {
+    "Code": 411,
+    "Description": "Bulgaria",
+    "Note": "Europe"
+  },
+  {
+    "Code": 413,
+    "Description": "Belarus",
+    "Note": "Europe"
+  },
+  {
+    "Code": 415,
+    "Description": "Croatia",
+    "Note": "Europe"
+  },
+  {
+    "Code": 417,
+    "Description": "Czechoslovakia",
+    "Note": "Europe"
+  },
+  {
+    "Code": 418,
+    "Description": "Czech Republic",
+    "Note": "Europe"
+  },
+  {
+    "Code": 419,
+    "Description": "Denmark",
+    "Note": "Europe"
+  },
+  {
+    "Code": 422,
+    "Description": "Estonia",
+    "Note": "Europe"
+  },
+  {
+    "Code": 425,
+    "Description": "Finland",
+    "Note": "Europe"
+  },
+  {
+    "Code": 427,
+    "Description": "France",
+    "Note": "Europe"
+  },
+  {
+    "Code": 428,
+    "Description": "East Germany",
+    "Note": "Europe"
+  },
+  {
+    "Code": 429,
+    "Description": "Germany",
+    "Note": "Europe"
+  },
+  {
+    "Code": 430,
+    "Description": "Berlin",
+    "Note": "Europe"
+  },
+  {
+    "Code": 431,
+    "Description": "Gibraltar",
+    "Note": "Europe"
+  },
+  {
+    "Code": 432,
+    "Description": "Georgia",
+    "Note": "Europe"
+  },
+  {
+    "Code": 433,
+    "Description": "Greece",
+    "Note": "Europe"
+  },
+  {
+    "Code": 437,
+    "Description": "Hungary",
+    "Note": "Europe"
+  },
+  {
+    "Code": 439,
+    "Description": "Iceland",
+    "Note": "Europe"
+  },
+  {
+    "Code": 441,
+    "Description": "Ireland",
+    "Note": "Europe"
+  },
+  {
+    "Code": 450,
+    "Description": "Italy",
+    "Note": "Europe"
+  },
+  {
+    "Code": 451,
+    "Description": "Latvia",
+    "Note": "Europe"
+  },
+  {
+    "Code": 452,
+    "Description": "Lithuania",
+    "Note": "Europe"
+  },
+  {
+    "Code": 453,
+    "Description": "Liechtenstein",
+    "Note": "Europe"
+  },
+  {
+    "Code": 454,
+    "Description": "Luxembourg",
+    "Note": "Europe"
+  },
+  {
+    "Code": 455,
+    "Description": "Macedonia",
+    "Note": "Europe"
+  },
+  {
+    "Code": 456,
+    "Description": "Malta",
+    "Note": "Europe"
+  },
+  {
+    "Code": 457,
+    "Description": "Moldova",
+    "Note": "Europe"
+  },
+  {
+    "Code": 458,
+    "Description": "Monaco",
+    "Note": "Europe"
+  },
+  {
+    "Code": 459,
+    "Description": "Montenegro",
+    "Note": "Europe"
+  },
+  {
+    "Code": 461,
+    "Description": "Netherlands",
+    "Note": "Europe"
+  },
+  {
+    "Code": 465,
+    "Description": "Norway",
+    "Note": "Europe"
+  },
+  {
+    "Code": 467,
+    "Description": "Poland",
+    "Note": "Europe"
+  },
+  {
+    "Code": 469,
+    "Description": "Portugal",
+    "Note": "Europe"
+  },
+  {
+    "Code": 473,
+    "Description": "Romania",
+    "Note": "Europe"
+  },
+  {
+    "Code": 475,
+    "Description": "Russia (European Part)",
+    "Note": "Europe"
+  },
+  {
+    "Code": 477,
+    "Description": "Serbia and Montenegro",
+    "Note": "Europe"
+  },
+  {
+    "Code": 479,
+    "Description": "San Marino",
+    "Note": "Europe"
+  },
+  {
+    "Code": 480,
+    "Description": "Serbia",
+    "Note": "Europe"
+  },
+  {
+    "Code": 481,
+    "Description": "Slovenia",
+    "Note": "Europe"
+  },
+  {
+    "Code": 482,
+    "Description": "Spain",
+    "Note": "Europe"
+  },
+  {
+    "Code": 483,
+    "Description": "Slovakia",
+    "Note": "Europe"
+  },
+  {
+    "Code": 484,
+    "Description": "Sweden",
+    "Note": "Europe"
+  },
+  {
+    "Code": 486,
+    "Description": "Switzerland",
+    "Note": "Europe"
+  },
+  {
+    "Code": 488,
+    "Description": "Ukraine",
+    "Note": "Europe"
+  },
+  {
+    "Code": 489,
+    "Description": "U.S.S.R. (European Part)",
+    "Note": "Europe"
+  },
+  {
+    "Code": 493,
+    "Description": "United Kingdom",
+    "Note": "Europe"
+  },
+  {
+    "Code": 494,
+    "Description": "Kosovo",
+    "Note": "Europe"
+  },
+  {
+    "Code": 497,
+    "Description": "Yugoslavia",
+    "Note": "Europe"
+  },
+  {
+    "Code": 500,
+    "Description": "Algeria",
+    "Note": "Africa"
+  },
+  {
+    "Code": 501,
+    "Description": "South Sudan",
+    "Note": "Africa"
+  },
+  {
+    "Code": 502,
+    "Description": "Angola",
+    "Note": "Africa"
+  },
+  {
+    "Code": 503,
+    "Description": "Burundi",
+    "Note": "Africa"
+  },
+  {
+    "Code": 504,
+    "Description": "Cameroon",
+    "Note": "Africa"
+  },
+  {
+    "Code": 506,
+    "Description": "Canary Island",
+    "Note": "Africa"
+  },
+  {
+    "Code": 507,
+    "Description": "Cape Verde Islands",
+    "Note": "Africa"
+  },
+  {
+    "Code": 509,
+    "Description": "Central African Republic",
+    "Note": "Africa"
+  },
+  {
+    "Code": 510,
+    "Description": "Botswana",
+    "Note": "Africa"
+  },
+  {
+    "Code": 511,
+    "Description": "Chad",
+    "Note": "Africa"
+  },
+  {
+    "Code": 513,
+    "Description": "Comoros",
+    "Note": "Africa"
+  },
+  {
+    "Code": 515,
+    "Description": "Republic of the Congo",
+    "Note": "Africa"
+  },
+  {
+    "Code": 517,
+    "Description": "Democratic Republic of the Congo",
+    "Note": "Africa"
+  },
+  {
+    "Code": 519,
+    "Description": "Benin",
+    "Note": "Africa"
+  },
+  {
+    "Code": 521,
+    "Description": "Equatorial Guinea",
+    "Note": "Africa"
+  },
+  {
+    "Code": 522,
+    "Description": "Ethiopia",
+    "Note": "Africa"
+  },
+  {
+    "Code": 523,
+    "Description": "Eritrea",
+    "Note": "Africa"
+  },
+  {
+    "Code": 525,
+    "Description": "Djibouti",
+    "Note": "Africa"
+  },
+  {
+    "Code": 526,
+    "Description": "Gabon",
+    "Note": "Africa"
+  },
+  {
+    "Code": 527,
+    "Description": "The Gambia",
+    "Note": "Africa"
+  },
+  {
+    "Code": 529,
+    "Description": "Ghana",
+    "Note": "Africa"
+  },
+  {
+    "Code": 531,
+    "Description": "Guinea",
+    "Note": "Africa"
+  },
+  {
+    "Code": 533,
+    "Description": "Cote d'Ivoire",
+    "Note": "Africa"
+  },
+  {
+    "Code": 535,
+    "Description": "Kenya",
+    "Note": "Africa"
+  },
+  {
+    "Code": 536,
+    "Description": "Lesotho",
+    "Note": "Africa"
+  },
+  {
+    "Code": 537,
+    "Description": "Liberia",
+    "Note": "Africa"
+  },
+  {
+    "Code": 538,
+    "Description": "Libya",
+    "Note": "Africa"
+  },
+  {
+    "Code": 540,
+    "Description": "Madeira Islands",
+    "Note": "Africa"
+  },
+  {
+    "Code": 541,
+    "Description": "Madagascar",
+    "Note": "Africa"
+  },
+  {
+    "Code": 542,
+    "Description": "Malawi",
+    "Note": "Africa"
+  },
+  {
+    "Code": 543,
+    "Description": "Mali",
+    "Note": "Africa"
+  },
+  {
+    "Code": 545,
+    "Description": "Mauritania",
+    "Note": "Africa"
+  },
+  {
+    "Code": 546,
+    "Description": "Mauritius",
+    "Note": "Africa"
+  },
+  {
+    "Code": 547,
+    "Description": "Mayotte",
+    "Note": "Africa"
+  },
+  {
+    "Code": 548,
+    "Description": "Morocco",
+    "Note": "Africa"
+  },
+  {
+    "Code": 550,
+    "Description": "Mozambique",
+    "Note": "Africa"
+  },
+  {
+    "Code": 554,
+    "Description": "Niger",
+    "Note": "Africa"
+  },
+  {
+    "Code": 555,
+    "Description": "Nigeria",
+    "Note": "Africa"
+  },
+  {
+    "Code": 559,
+    "Description": "Guinea-Bissau",
+    "Note": "Africa"
+  },
+  {
+    "Code": 562,
+    "Description": "South Africa",
+    "Note": "Africa"
+  },
+  {
+    "Code": 563,
+    "Description": "Reunion Island",
+    "Note": "Africa"
+  },
+  {
+    "Code": 565,
+    "Description": "Zimbabwe",
+    "Note": "Africa"
+  },
+  {
+    "Code": 566,
+    "Description": "Rwanda",
+    "Note": "Africa"
+  },
+  {
+    "Code": 567,
+    "Description": "Sao Tome and Principe",
+    "Note": "Africa"
+  },
+  {
+    "Code": 568,
+    "Description": "Rodrigues Islands",
+    "Note": "Africa"
+  },
+  {
+    "Code": 569,
+    "Description": "Senegal",
+    "Note": "Africa"
+  },
+  {
+    "Code": 570,
+    "Description": "Seychelles Islands",
+    "Note": "Africa"
+  },
+  {
+    "Code": 571,
+    "Description": "Sierra Leone",
+    "Note": "Africa"
+  },
+  {
+    "Code": 573,
+    "Description": "Somalia",
+    "Note": "Africa"
+  },
+  {
+    "Code": 575,
+    "Description": "Namibia",
+    "Note": "Africa"
+  },
+  {
+    "Code": 580,
+    "Description": "Saint Helena, Ascension, and Tristan da Cunha",
+    "Note": "Africa"
+  },
+  {
+    "Code": 582,
+    "Description": "Swaziland",
+    "Note": "Africa"
+  },
+  {
+    "Code": 583,
+    "Description": "Sudan",
+    "Note": "Africa"
+  },
+  {
+    "Code": 585,
+    "Description": "Tanzania",
+    "Note": "Africa"
+  },
+  {
+    "Code": 586,
+    "Description": "Togo",
+    "Note": "Africa"
+  },
+  {
+    "Code": 588,
+    "Description": "Tunisia",
+    "Note": "Africa"
+  },
+  {
+    "Code": 590,
+    "Description": "Uganda",
+    "Note": "Africa"
+  },
+  {
+    "Code": 591,
+    "Description": "Egypt",
+    "Note": "Africa"
+  },
+  {
+    "Code": 593,
+    "Description": "Burkina Faso",
+    "Note": "Africa"
+  },
+  {
+    "Code": 597,
+    "Description": "Zambia",
+    "Note": "Africa"
+  },
+  {
+    "Code": 599,
+    "Description": "Rhodesia",
+    "Note": "Africa"
+  },
+  {
+    "Code": 605,
+    "Description": "Bahrain",
+    "Note": "Asia"
+  },
+  {
+    "Code": 611,
+    "Description": "Cyprus",
+    "Note": "Asia"
+  },
+  {
+    "Code": 632,
+    "Description": "Iran",
+    "Note": "Asia"
+  },
+  {
+    "Code": 634,
+    "Description": "Iraq",
+    "Note": "Asia"
+  },
+  {
+    "Code": 636,
+    "Description": "Israel",
+    "Note": "Asia"
+  },
+  {
+    "Code": 639,
+    "Description": "Jordan",
+    "Note": "Asia"
+  },
+  {
+    "Code": 644,
+    "Description": "Kuwait",
+    "Note": "Asia"
+  },
+  {
+    "Code": 647,
+    "Description": "Lebanon",
+    "Note": "Asia"
+  },
+  {
+    "Code": 658,
+    "Description": "Oman",
+    "Note": "Asia"
+  },
+  {
+    "Code": 664,
+    "Description": "Qatar",
+    "Note": "Asia"
+  },
+  {
+    "Code": 667,
+    "Description": "People's Democratic Republic of Yemen",
+    "Note": "Asia"
+  },
+  {
+    "Code": 670,
+    "Description": "Saudi Arabia",
+    "Note": "Asia"
+  },
+  {
+    "Code": 676,
+    "Description": "Syria",
+    "Note": "Asia"
+  },
+  {
+    "Code": 678,
+    "Description": "United Arab Emirates",
+    "Note": "Asia"
+  },
+  {
+    "Code": 679,
+    "Description": "Turkey",
+    "Note": "Asia"
+  },
+  {
+    "Code": 694,
+    "Description": "Yemen",
+    "Note": "Asia"
+  },
+  {
+    "Code": 701,
+    "Description": "Afghanistan",
+    "Note": "Asia"
+  },
+  {
+    "Code": 702,
+    "Description": "Bhutan",
+    "Note": "Asia"
+  },
+  {
+    "Code": 703,
+    "Description": "Bangladesh",
+    "Note": "Asia"
+  },
+  {
+    "Code": 704,
+    "Description": "Brunei",
+    "Note": "Asia"
+  },
+  {
+    "Code": 705,
+    "Description": "Bonin Islands",
+    "Note": "Asia"
+  },
+  {
+    "Code": 706,
+    "Description": "Myanmar",
+    "Note": "Asia"
+  },
+  {
+    "Code": 707,
+    "Description": "British Indian Ocean Territory",
+    "Note": "Asia"
+  },
+  {
+    "Code": 709,
+    "Description": "Cambodia",
+    "Note": "Asia"
+  },
+  {
+    "Code": 711,
+    "Description": "Sri Lanka",
+    "Note": "Asia"
+  },
+  {
+    "Code": 713,
+    "Description": "China",
+    "Note": "Asia"
+  },
+  {
+    "Code": 729,
+    "Description": "Hong Kong",
+    "Note": "Asia"
+  },
+  {
+    "Code": 733,
+    "Description": "India",
+    "Note": "Asia"
+  },
+  {
+    "Code": 736,
+    "Description": "Japan",
+    "Note": "Asia"
+  },
+  {
+    "Code": 738,
+    "Description": "Kazakhstan",
+    "Note": "Asia"
+  },
+  {
+    "Code": 743,
+    "Description": "Kyrgyzstan",
+    "Note": "Asia"
+  },
+  {
+    "Code": 744,
+    "Description": "Laos",
+    "Note": "Asia"
+  },
+  {
+    "Code": 747,
+    "Description": "Macau",
+    "Note": "Asia"
+  },
+  {
+    "Code": 749,
+    "Description": "Malaysia",
+    "Note": "Asia"
+  },
+  {
+    "Code": 750,
+    "Description": "Maldives",
+    "Note": "Asia"
+  },
+  {
+    "Code": 751,
+    "Description": "Mongolia",
+    "Note": "Asia"
+  },
+  {
+    "Code": 755,
+    "Description": "Nepal",
+    "Note": "Asia"
+  },
+  {
+    "Code": 757,
+    "Description": "North Korea",
+    "Note": "Asia"
+  },
+  {
+    "Code": 759,
+    "Description": "North Vietnam",
+    "Note": "Asia"
+  },
+  {
+    "Code": 761,
+    "Description": "Okinawa/Ryukyu Islands",
+    "Note": "Asia"
+  },
+  {
+    "Code": 764,
+    "Description": "Pakistan",
+    "Note": "Asia"
+  },
+  {
+    "Code": 766,
+    "Description": "Philippines",
+    "Note": "Asia"
+  },
+  {
+    "Code": 770,
+    "Description": "Russia (Asian Part)",
+    "Note": "Asia"
+  },
+  {
+    "Code": 776,
+    "Description": "Singapore",
+    "Note": "Asia"
+  },
+  {
+    "Code": 778,
+    "Description": "South Korea",
+    "Note": "Asia"
+  },
+  {
+    "Code": 780,
+    "Description": "South Vietnam",
+    "Note": "Asia"
+  },
+  {
+    "Code": 781,
+    "Description": "Taiwan",
+    "Note": "Asia"
+  },
+  {
+    "Code": 782,
+    "Description": "Thailand",
+    "Note": "Asia"
+  },
+  {
+    "Code": 783,
+    "Description": "Tajikistan",
+    "Note": "Asia"
+  },
+  {
+    "Code": 785,
+    "Description": "Turkmenistan",
+    "Note": "Asia"
+  },
+  {
+    "Code": 786,
+    "Description": "U.S.S.R. (Asian Part)",
+    "Note": "Asia"
+  },
+  {
+    "Code": 788,
+    "Description": "Uzbekistan",
+    "Note": "Asia"
+  },
+  {
+    "Code": 791,
+    "Description": "Vietnam",
+    "Note": "Asia"
+  },
+  {
+    "Code": 800,
+    "Description": "American Samoa",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 801,
+    "Description": "Antarctica",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 802,
+    "Description": "Australia",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 803,
+    "Description": "Christmas Island",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 804,
+    "Description": "Papua New Guinea",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 809,
+    "Description": "Palau Islands",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 810,
+    "Description": "Federated States of Micronesia",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 812,
+    "Description": "Cocos (Keeling) Islands",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 813,
+    "Description": "Cook Islands",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 817,
+    "Description": "Tuvalu",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 821,
+    "Description": "Fiji Islands",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 823,
+    "Description": "French Polynesia",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 824,
+    "Description": "Kiribati",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 826,
+    "Description": "Guam",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 832,
+    "Description": "Indonesia",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 834,
+    "Description": "Johnston Island",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 840,
+    "Description": "Loyalty Islands",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 841,
+    "Description": "Northern Mariana Islands",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 842,
+    "Description": "Midway Islands",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 843,
+    "Description": "Marshall Islands",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 844,
+    "Description": "Marshall Islands",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 845,
+    "Description": "Nauru",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 846,
+    "Description": "New Caledonia",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 849,
+    "Description": "New Hebrides",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 851,
+    "Description": "New Zealand",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 852,
+    "Description": "Niue",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 853,
+    "Description": "Norfolk Island",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 854,
+    "Description": "Palau",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 861,
+    "Description": "East Timor",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 862,
+    "Description": "Timor-Leste",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 874,
+    "Description": "Solomon Islands",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 881,
+    "Description": "Tonga",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 885,
+    "Description": "Vanuatu",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 888,
+    "Description": "Wake Island",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 890,
+    "Description": "Wallis and Futuna Islands",
+    "Note": "Oceania"
+  },
+  {
+    "Code": 892,
+    "Description": "Samoa",
+    "Note": "Oceania"
+  }
+]

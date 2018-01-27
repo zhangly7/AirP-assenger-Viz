@@ -1,0 +1,153 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	min-height: 100%;
+}
+
+form {
+	position: relative;
+	width: 900px;
+	margin: 0 auto;
+}
+
+input,
+button {
+	border: none;
+	outline: none;
+}
+
+input {
+	width: 90px;
+	height: 42px;
+	color: #333333;
+}
+
+button {
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.main-header {
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	top: 32%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.main {
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+
+#prefetch {
+	text-align: left;
+}
+
+
+.search-box {
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	top: 36%;
+}
+
+.search-box input {
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid grey;
+	border-radius: 5px;
+	background: transparent;
+	top: 0;
+	right: 0;
+}
+
+.search-box button {
+	position: relative;
+	vertical-align: top;
+	background: grey;
+	border-radius: 0 5px 5px 0;
+
+	top: 0;
+	right: 0;
+}
+
+.date_input {
+	text-align: center;
+	font-size: 15px;
+	color: #999999;
+	font-family: 'Raleway', FontAwesome, sans-serif;
+	font-weight: 300;
+}
+
+.date_input:focus {
+    border: 2px solid #0097cf;
+}
+
+#submit-btn {
+	height: 42px;
+	width: 60px;
+}
+
+.btn-info {
+	height: 30px;
+	width: 94px;
+	margin-left: 5px;
+	padding: 3px 9px;
+	border-radius: 6px;
+}
+
+.search-box button:before {
+	content: "\f105";
+	font-family: FontAwesome;
+	color: #F9F0DA;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #1875b6;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.dc-chart g.row text {
+	fill: black;
+	font-size: 12px;
+}
+
+::placeholder {
+	color: #27282b;
+}
+
+#passenger_num {
+	float: none;
+	text-align: center;
+	font-size: 106px;
+	font-family: "Raleway", sans-serif;
+}
+#rpm {
+	float: none;
+	text-align: center;
+	font-size: 105px;
+	font-family: "Raleway", sans-serif;
+}
+

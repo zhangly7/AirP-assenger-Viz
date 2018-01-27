@@ -1,0 +1,272 @@
+[
+  {
+    "Code": 1,
+    "Description": "Alaska",
+    "Note": "Alaska and Hawaii"
+  },
+  {
+    "Code": 2,
+    "Description": "Hawaii",
+    "Note": "Alaska and Hawaii"
+  },
+  {
+    "Code": 3,
+    "Description": "Puerto Rico",
+    "Note": "US Territories and Possessions"
+  },
+  {
+    "Code": 4,
+    "Description": "U.S. Virgin Islands",
+    "Note": "US Territories and Possessions"
+  },
+  {
+    "Code": 5,
+    "Description": "U.S. Pacific Trust Territories and Possessions",
+    "Note": "US Territories and Possessions"
+  },
+  {
+    "Code": 11,
+    "Description": "Connecticut",
+    "Note": "Northeastern U.S."
+  },
+  {
+    "Code": 12,
+    "Description": "Maine",
+    "Note": "Northeastern U.S."
+  },
+  {
+    "Code": 13,
+    "Description": "Massachusetts",
+    "Note": "Northeastern U.S."
+  },
+  {
+    "Code": 14,
+    "Description": "New Hampshire",
+    "Note": "Northeastern U.S."
+  },
+  {
+    "Code": 15,
+    "Description": "Rhode Island",
+    "Note": "Northeastern U.S."
+  },
+  {
+    "Code": 16,
+    "Description": "Vermont",
+    "Note": "Northeastern U.S."
+  },
+  {
+    "Code": 21,
+    "Description": "New Jersey",
+    "Note": "Northeastern U.S."
+  },
+  {
+    "Code": 22,
+    "Description": "New York",
+    "Note": "Northeastern U.S."
+  },
+  {
+    "Code": 23,
+    "Description": "Pennsylvania",
+    "Note": "Northeastern U.S."
+  },
+  {
+    "Code": 31,
+    "Description": "Delaware",
+    "Note": "Northeastern U.S."
+  },
+  {
+    "Code": 32,
+    "Description": "District of Columbia",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 33,
+    "Description": "Florida",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 34,
+    "Description": "Georgia",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 35,
+    "Description": "Maryland",
+    "Note": "Northeastern U.S."
+  },
+  {
+    "Code": 36,
+    "Description": "North Carolina",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 37,
+    "Description": "South Carolina",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 38,
+    "Description": "Virginia",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 39,
+    "Description": "West Virginia",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 41,
+    "Description": "Illinois",
+    "Note": "Midwestern U.S."
+  },
+  {
+    "Code": 42,
+    "Description": "Indiana",
+    "Note": "Midwestern U.S."
+  },
+  {
+    "Code": 43,
+    "Description": "Michigan",
+    "Note": "Midwestern U.S."
+  },
+  {
+    "Code": 44,
+    "Description": "Ohio",
+    "Note": "Midwestern U.S."
+  },
+  {
+    "Code": 45,
+    "Description": "Wisconsin",
+    "Note": "Midwestern U.S."
+  },
+  {
+    "Code": 51,
+    "Description": "Alabama",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 52,
+    "Description": "Kentucky",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 53,
+    "Description": "Mississippi",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 54,
+    "Description": "Tennessee",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 61,
+    "Description": "Iowa",
+    "Note": "Midwestern U.S."
+  },
+  {
+    "Code": 62,
+    "Description": "Kansas",
+    "Note": "Midwestern U.S."
+  },
+  {
+    "Code": 63,
+    "Description": "Minnesota",
+    "Note": "Midwestern U.S."
+  },
+  {
+    "Code": 64,
+    "Description": "Missouri",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 65,
+    "Description": "Nebraska",
+    "Note": "Midwestern U.S."
+  },
+  {
+    "Code": 66,
+    "Description": "North Dakota",
+    "Note": "Midwestern U.S."
+  },
+  {
+    "Code": 67,
+    "Description": "South Dakota",
+    "Note": "Midwestern U.S."
+  },
+  {
+    "Code": 71,
+    "Description": "Arkansas",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 72,
+    "Description": "Louisiana",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 73,
+    "Description": "Oklahoma",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 74,
+    "Description": "Texas",
+    "Note": "Southern U.S."
+  },
+  {
+    "Code": 81,
+    "Description": "Arizona",
+    "Note": "Western U.S."
+  },
+  {
+    "Code": 82,
+    "Description": "Colorado",
+    "Note": "Western U.S."
+  },
+  {
+    "Code": 83,
+    "Description": "Idaho",
+    "Note": "Western U.S."
+  },
+  {
+    "Code": 84,
+    "Description": "Montana",
+    "Note": "Western U.S."
+  },
+  {
+    "Code": 85,
+    "Description": "Nevada",
+    "Note": "Western U.S."
+  },
+  {
+    "Code": 86,
+    "Description": "New Mexico",
+    "Note": "Western U.S."
+  },
+  {
+    "Code": 87,
+    "Description": "Utah",
+    "Note": "Western U.S."
+  },
+  {
+    "Code": 88,
+    "Description": "Wyoming",
+    "Note": "Western U.S."
+  },
+  {
+    "Code": 91,
+    "Description": "California",
+    "Note": "Western U.S."
+  },
+  {
+    "Code": 92,
+    "Description": "Oregon",
+    "Note": "Western U.S."
+  },
+  {
+    "Code": 93,
+    "Description": "Washington",
+    "Note": "Western U.S."
+  }
+]

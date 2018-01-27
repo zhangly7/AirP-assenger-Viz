@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>US Air Passenger Viz</title>
+
+	<!-- jQuery, Bootstrap -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js" type="text/javascript"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="dashboards.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+	<script src="https://d3js.org/d3-queue.v3.min.js"></script>
+	<!-- 	d3-time-format-->
+	<script src="https://d3js.org/d3-time.v1.min.js"></script>
+	<script src="https://d3js.org/d3-time-format.v2.min.js"></script>
+	<!-- dc.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.min.css" />
+	<script src='lib/dashboard.js'></script>
+	<script src="lib/datepicker.js"></script>
+	<!-- leaflet -->
+	<link rel="stylesheet" href="lib/css/leaflet.css" />
+	<script src="lib/leaflet.js"></script>
+	<script src="lib/leaflet.markercluster.js"></script>
+	<script src="lib/dc.leaflet.min.js"></script>
+	<!-- pace -->
+	<script>
+	window.paceOptions = {
+		document: false, // disabled
+		eventLag: true, // disabled
+		startOnPageLoad: false,
+		elements: {
+			selectors: ['.dc-chart']
+		}
+	};
+	</script>
+	<script src='lib/pace.min.js'></script>
+	<link href="css/pace-normal.css" rel="stylesheet" />
+	<script src="lib/lodash.min.js"></script>
+
+	<!-- data files -->
+	<script type="text/javascript" src="data/airportData.json"></script>
+	<script type="text/javascript" src="data/carrierData.json"></script>
+
+	<script type="text/javascript" src="data/d.json"></script>
+
+
+
+
+	<!-- CSS -->
+	<link href="lib/css/jquery.gridster.min.css" rel="stylesheet">
+	<link href="lib/css/datepicker.css" rel="stylesheet">
+	<link href="lib/css/typeahead.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+	<link href="lib/css/MarkerCluster.css" rel="stylesheet">
+	<link href="lib/css/MarkerCluster.Default.css" rel="stylesheet">
+	<!-- My CSS -->
+	<link href="lib/css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="main">
+		<div id="particles-js"></div>
+		<div class="main-header">
+			<h2>Air Passenger Visualization (U.S.)</h2>
+		</div>
+		<div class="search-box">
+			<form id="form1" class="forms">
+				<!-- origin & dest INPUT -->
+				<div id="prefetch" style="display: inline-block;">
+					<input id="origin_input" class="typeahead biginput" type="text" placeholder="Origin">
+					<input id="dest_input" class="typeahead biginput" type="text" placeholder="Destination">
+				</div>
+				<!-- date INPUT -->
+				<input class="date_input" id="begin_date" data-toggle="datepicker" placeholder="&#xf073;&nbsp;&nbsp;Begin">
+				<input class="date_input" id="end_date" data-toggle="datepicker" placeholder="&#xf073;&nbsp;&nbsp;End">
+				<button id="submit-btn" type="submit"></button>
+			</form>
+		</div>
+	</div>
+	<!-- Dashboard -->
+	<div class="keen-dashboard" style="visibility: hidden;"> <!--  -->
+		<div class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<!-- navbar -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" style="margin-top: -3px;" href="./"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;Air Passenger Data Viz</a>
+				</div>
+				<!-- navbar responsive -->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-left">
+						<li>
+							<!-- 							<form class="navbar-form" role="search">
+ <-->
+							<form id="form2" class="forms" style="margin-left: 5px;margin-top: 8px; width: 1130px">
+								<!-- <div class="input-group" style="display: inline"> -->
+								<div id="prefetch" class="search-box" style="display: inline-block;">
+									<input type="text" id="origin_input2" class="typeahead biginput" style="width: 250px; height: 29px;font-family:Raleway, FontAwesome; vertical-align: middle;" placeholder="&#xf072;&nbsp;&nbsp;Origin" name="q">
+									<input type="text" id="dest_input2" class="typeahead biginput" style="width: 250px; height: 29px;font-family:Raleway, FontAwesome; vertical-align: middle;" placeholder="&#xf072;&nbsp;&nbsp;Dest" name="q">
+									<input class="date_input" id="begin_date2" data-toggle="datepicker" style="width: 95px; height: 29px;font-family:Raleway, FontAwesome;" placeholder="&#xf073;&nbsp;&nbsp;Begin">
+									<input class="date_input" id="end_date2" data-toggle="datepicker" style="width: 95px; height: 29px;font-family:Raleway, FontAwesome;" placeholder="&#xf073;&nbsp;&nbsp;End">
+								</div>
+								<button styletype="submit" style="border-radius: 6px; margin-bottom: -6px" class="btn btn-info">
+									<span class="glyphicon glyphicon-search"></span> Search
+								</button>
+								<button style="border-radius: 6px; margin-bottom: -6px; text-decoration: none" class="btn btn-info">
+									<a style="color: white" href="javascript:dc.filterAll(); dc.renderAll();"><i class="fa fa-refresh" aria-hidden="true"></i> Reset All</a>
+								</button>
+								<!-- To-do: Add Data Button-->
+								<!-- 								</div>
+ -->
+							</form>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+		<!-- charts -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-8">
+					<div class="chart-wrapper">
+						<div class="chart-title">
+							Passenger Flow
+						</div>
+						<div class="chart-stage">
+							<div id="time-chart"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="chart-wrapper">
+						<div class="chart-title">
+							Total Number of Passenger
+						</div>
+						<div class="chart-stage">
+							<div class="number_display" id="passenger_num"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="chart-wrapper">
+						<div class="chart-title">
+							Revenue Passenger-Miles (RPMs)
+						</div>
+						<div class="chart-stage">
+							<div class="number_display" id="rpm"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					<div class="chart-wrapper">
+						<div class="chart-title">
+							Origin Ranking By Passenger Volume
+						</div>
+						<div class="chart-stage">
+							<div id="origin"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="chart-wrapper">
+						<div class="chart-title">
+							Destination Ranking By Passenger Volume
+						</div>
+						<div class="chart-stage">
+							<div id="dest"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="chart-wrapper">
+						<div class="chart-title">
+							Airlines
+						</div>
+						<div class="chart-stage">
+							<div id="airline"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="chart-wrapper">
+						<div class="chart-title">
+							Passenger Volume By Quarter
+						</div>
+						<div class="chart-stage">
+							<div id="quarterPsg"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="chart-wrapper">
+						<div class="chart-title">
+							Passenger Volume By Month
+						</div>
+						<div class="chart-stage">
+							<div id="monthPsg"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="chart-wrapper">
+						<div class="chart-title">
+								Annual Revenue Passenger-Miles 
+						</div>
+						<div class="chart-stage">
+							<div id="anual-rpm"></div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<!-- <div class="col-sm-6 col-md-4">
+					<div class="chart-wrapper">
+						<div class="chart-title">
+							Cell Title
+						</div>
+						<div class="chart-stage">
+							<img data-src="holder.js/100%x120/white">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="chart-wrapper">
+						<div class="chart-title">
+							Cell Title
+						</div>
+						<div class="chart-stage">
+							<img data-src="holder.js/100%x120/white">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="chart-wrapper">
+						<div class="chart-title">
+							Cell Title
+						</div>
+						<div class="chart-stage">
+							<img data-src="holder.js/100%x120/white">
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+		<!-- footer -->
+		<div class="container-fluid" style="margin: auto; text-align: center;">
+			<p class="small text-muted" >Data Source: U.S. Department of Transportation; Last updated: May 2017 </p>
+		</div>
+		<!-- 		</div>
+		<div class="footer-copyright">
+        <div class="container-fluid" style="margin: auto; text-align: center;">
+            <p class="small text-muted">Data Source: U.S. BTS. INLS_641 Final Project - Fall 2017 </p>
+        </div>
+    </div> -->
+		<script src="lib/typeahead.bundle.js"></script>
+		<script src="config/typeahead-config.js"></script>
+		<!-- particles! -->
+		<script src="lib/particles.js"></script>
+		<script src="lib/particles-app.js"></script>
+		<!-- Gridster -->
+		<script src="lib/jquery.gridster.min.js"></script>
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.3.0/gridstack.min.css" />
+		<script src='//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.3.0/gridstack.min.js'></script>
+		<script src='//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.3.0/gridstack.jQueryUI.min.js'></script>
+		<!-- RequireJS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.min.js"></script>
+		<!-- My JS -->
+		<script src="lib/helper.js"></script>
+		<script src="lib/main.js"></script>
+		<!-- 		<script type="text/javascript">
+		$(function() {
+			$('.grid-stack').gridstack();
+		});
+		</script> -->
+</body>
+
+</html>
