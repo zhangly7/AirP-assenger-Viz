@@ -12,7 +12,7 @@ var router = express.Router();
 var main_route = require('./routes/main-route');
 
 var port = process.env.PORT || 8080;
-var uri = 'mongodb://zhangly7:335506Mongo!@flight-cluster-shard-00-02-en3a6.mongodb.net:27017,' +
+var uri = 'mongodb://mongoUserName:mongoPassword@flight-cluster-shard-00-02-en3a6.mongodb.net:27017,' +
   'flight-cluster-shard-00-00-en3a6.mongodb.net:27017,' +
   'flight-cluster-shard-00-01-en3a6.mongodb.net:27017/flight' +
   '?ssl=true&replicaSet=Flight-Cluster-shard-0&authSource=admin';
